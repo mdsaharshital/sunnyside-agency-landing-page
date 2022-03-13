@@ -17,6 +17,13 @@ header {
   font-weight: 900;
   color: black;
 }
+.navbar-brand {
+  font-size: 32px;
+}
+.navbar-nav {
+  font-size: 18px;
+  color: white;
+}
 .custom-p {
   font-size: 18px;
   color: hsl(210, 4%, 67%);
@@ -40,10 +47,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 90vh;
   font-family: "Fraunces", serif;
   font-weight: 600;
-  padding: 3rem;
+  padding: 3.5rem;
 }
 /* client section */
 #client h4 {
