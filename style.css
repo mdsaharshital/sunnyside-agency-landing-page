@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+*/
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+header {
+  height: 100vh;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-brand,
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+.custom-p {
+  font-size: 18px;
+  color: hsl(210, 4%, 67%);
+}
+.special-link {
+  color: black;
+  text-decoration: none;
+}
+.special-link:hover {
+  border-bottom: 3px solid hsl(7, 99%, 70%);
+  color: black;
+}
