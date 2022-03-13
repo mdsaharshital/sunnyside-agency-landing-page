@@ -70,3 +70,19 @@ header {
   flex-direction: column;
   padding: 3rem;
 }
+footer {
+  font-family: "Fraunces", serif;
+  height: 45vh;
+  background-color: hsl(167, 37%, 52%);
+}
+footer section h2 {
+  color: hsl(167, 40%, 24%);
+}
+footer section a {
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+  margin: 0px 16px;
+}
+footer section a:hover {
+  color: white;
+}
