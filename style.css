@@ -13,19 +13,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-}
-.dual-view {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-}
-.text-half {
-  width: 100%;
-}
-.text-half img {
-  width: 100%;
+  /* background-attachment: fixed; */
 }
 .navbar-brand,
 .fraunces {
@@ -46,29 +34,37 @@ header {
   color: black;
 }
 .graphics-bg {
-  height: 70vh;
   background-image: url(./images/desktop/image-graphic-design.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: hsl(167, 40%, 24%);
 }
 .Photography-bg {
-  height: 70vh;
   background-image: url(./images/desktop/image-photography.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: hsl(198, 62%, 26%);
 }
 .gra-pho-common {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
   font-family: "Fraunces", serif;
   font-weight: 600;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  flex-direction: column;
   padding: 3rem;
+}
+/* client section */
+#client h4 {
+  margin-top: 4rem;
+  font-family: "Fraunces", serif;
+  color: hsl(213, 9%, 39%);
+}
+.client-msg p {
+  color: hsl(213, 9%, 39%);
+}
+.client-img img {
+  border-radius: 50%;
+  transform: scale(0.6);
+}
+.client-name {
+  font-family: "Fraunces", serif;
 }
 footer {
   font-family: "Fraunces", serif;
